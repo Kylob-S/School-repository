@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Incrementer</title>
+    <script src="loop.js"></script>
+</head>
+
+<body>
+    <h1>Number Incrementer</h1>
+
+    <form id="numberForm">
+        <label for="start">Starting Number:</label>
+        <input type="number" id="start" required><br><br>
+
+        <label for="end">Maximum Number:</label>
+        <input type="number" id="end" required><br><br>
+
+        <label for="increment">Increment By:</label>
+        <input type="number" id="increment" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <script>
+        var input = document.querySelector('input');
+            input.value = '1-100'
+    </script>
+
+    <h2>Numbers:</h2>
+    <div id="output"></div> <!-- The output will be displayed here -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+/*Kylob Smith 09/06/2024*/
+table {
+    font-size: 20;
+    width: 700px;
+    text-align: left;
+    font-style: italic;
+}
+th{
+    font-size: 20;
+}
+
+table,
+th,
+td {
+    border: 1px solid#000;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 14px 14px 14px 2px;
+}
+.xbox{
+    position: absolute;
+    left: .7%;
+    top: 60px;
+}
+td{
+    font-size: 14px;
+}
+.console{
+    text-align: center;
+}

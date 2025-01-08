@@ -1,0 +1,43 @@
+
+
+.t1 {
+    width: 800px;
+    margin: auto;
+}
+.t2{
+    margin: auto;
+    width: 200px;
+    
+
+}
+
+table,
+th,
+td {
+    border: 1px solid#000;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 14px 14px 14px 2px;
+}
+
+#vertical-table{
+    text-align: center;
+    white-space: nowrap;
+    text-align: center;
+    padding-top: 2%;
+    text-align: left;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    height: 200px;
+}
+td :nth-child(){
+    background-color: green;
+
+
+}
+.c{
+    background-color: rgb(158, 220, 203);
+}

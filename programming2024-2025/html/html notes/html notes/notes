@@ -1,0 +1,86 @@
+<!--        
+<body>
+   <h1 id="top">top of the page</h1> 
+    <a href="about.html">about</a>
+    <h3>youtube</h3>
+     
+    <a href="https://www.youtube.com/@TheRealSpleech"> -link for youtube-
+    
+    <img src="youtubeGIF.png" width="160" alt="Image not downloaded"> -alters the size of the image-
+    
+     <a href="" target="_blank">perfect</a> 
+     --creates space between--
+     <br>
+  <h1>hello im kylob <sup>1st</sup> and<sub>its nice to meet you</sub></h1> -wacky words-
+     <p>sosossosos</p>
+     <a href="#top">back to the top of the page</a> -creates path that leads to top of page-
+     <li>talkingpoints<li> -creates bullets points-
+       
+        <h1>copyright &copy;</h1>---copyright
+       
+        - <ol>--order list
+            <li>john</li>-list item
+            <li>me</li>
+            <li>you</li>
+        </ol> ----creates a list going in numerical order----            
+<table> -----creates columns between the words
+ <tr>
+  <td>john</td>
+  <td>mar</td>
+  <tr>
+</table>
+
+
+
+<form action="" method="">
+  <input type="text" name="name" id=""> -creates a bar to type in
+   <br>
+   <button type="submit">submit</button> -creates a submit button next to the bar
+  </form>
+
+
+
+
+
+-CREATING ALL TYPES OF CHECK BOXES AS WELL AS A DESCRIPTION
+  <form action="" method="">
+  <label for='name'>first name</label>
+  <input type="text" name="name" id="name">
+   <br>
+   <p>password</p>
+   <input type="password" 
+   placeholder="password">
+   <br>
+   <input type="email" name="" id=""
+   value="email@email.com">
+   <br>
+   <p>description</p>
+   <textarea name="" id="" cols="130"--DESCRIPTION
+   rows="10"></textarea>
+   <br>
+   <p>please select all of your favorite coding languages!</p> -BUBBLE CHECK BOXES
+   <input type="radio" name="coding"
+   id="" value="javascript">javascript 
+   <input type="radio" name="coding"
+   id="" value="html">html
+   <input type="radio" name="coding"
+   id="" value="python">python
+   <br>
+   <p>please select below options</p> -SQUARED CHECKBOXES
+   <input type="checkbox" value="javascript" name="programming" id="">javascript
+   <input type="checkbox" value="html" name="programming" id="">html
+   <input type="checkbox" value="python" name="programming" id="">python
+   <p>select above</p>
+   <select name="languages" id=""> -DROP DOWN MENU
+    <option value=""></option>
+    <option value="javascript">javascript</option>
+    <option value="python">python</option>
+    <option value="html">html</option>
+   </select>
+   
+   <br>
+   <input type="submit" value="submit">
+   <button type="submit">submit</button>
+</form>
+
+    </body>

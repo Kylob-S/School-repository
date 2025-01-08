@@ -1,0 +1,177 @@
+* {
+    margin-left: 0px;
+    padding: 0;
+}
+.main {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+
+z-index: -1;
+}
+.navbar{
+width: 1200px;
+height: 75px;
+margin: auto;
+    }
+
+.menu{
+width: 400px;
+float: left;
+height: 70px;
+
+}
+.background{
+    background-image: url('/html/first webpage/images/2bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+ul{
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ul li{
+list-style: none;
+margin-left: 100px;
+margin-top: 27px;
+font-size: 25px;
+}
+
+ul li a{
+text-decoration: none;
+color: aliceblue;
+font-style: italic;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color: rgb(128, 134, 129);
+}
+.Return{
+    color: #fdfdfd;
+}
+.Return a:hover{
+align-items: top;
+color: rgb(128, 134, 129);
+list-style: none;
+}
+
+
+
+table{
+margin-left: 0%;
+width: 1200px;
+}
+
+table, th, td{
+border: 1px solid rgb(128, 134, 129);
+width: auto;
+border-collapse: collapse;
+color: #fdfdfd;
+
+
+}
+
+th, td{
+padding: 15px;
+
+}
+
+.bands{
+top: 10;
+width: 100%;
+
+}
+.link {
+color: rgb(128, 134, 129);
+text-decoration: none;
+font-size: 25px;
+width: 150px;
+background-color: rgb(253, 253, 253);
+}
+h1{
+font-style: times;
+margin: 0;
+padding: 0;
+text-align: center;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translateX(-50%)
+
+}
+.p{
+text-align: center;
+font-family: 'Times New Roman';
+}
+.image-container {
+text-align: center;
+margin-top: 300px;
+}
+.game-images{
+    margin: auto;
+
+}
+.contact-box{
+margin: auto;
+width: 500px;
+background-color: #74606000;
+box-shadow: 0 0 20px 0 #999;
+
+    
+
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    border-radius: 14px;
+    outline: none;
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+
+}
+.btn{
+    border-radius: 20px;
+    color: #999;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: bisque;
+    font-size: 12px;
+    border: black 2px;
+    cursor: pointer;
+}
+h2{
+    font-style: italic;
+    margin-top: 160px;
+    text-align: center;
+}
+h3{
+    font-style: italic;
+    text-align: center;
+}
+p{
+    font-style: italic;
+    text-align: center;
+    font-size: large;
+}

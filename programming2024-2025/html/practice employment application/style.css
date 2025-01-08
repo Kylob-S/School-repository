@@ -1,0 +1,115 @@
+body {
+    padding-top: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+h1{
+    
+    padding-top: 50px;
+    text-align: right;
+    color: #545252;
+}
+figure{
+    padding-top: 100px;
+}
+.page-one {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: auto;
+    width: 900px;
+    height: 1500px;
+    background-color: #74606000;
+    box-shadow: 0 0 20px 0 #999;
+}
+table{
+    padding-top: 7px;
+    width: 900px;
+    border: 1px solid black;
+    background: rgb(209, 204, 204);
+    border-left: 2px;
+    border-right: 2px;
+    margin: auto;
+
+}
+    .page-two {
+padding-left: 60px;
+padding-right: 60px;
+margin: auto;
+width: 900px;
+height: 1200px;
+background-color: #74606000;
+box-shadow: 0 0 20px 0 #999;
+}
+.page-three{
+    padding-left: 60px;
+        padding-right: 60px;
+        margin: auto;
+        width: 900px;
+        height: 1000px;
+        background-color: #74606000;
+        box-shadow: 0 0 20px 0 #999;
+}
+hr{
+    border-style: none;
+}
+h3{
+    color: white;
+    text-align: center;
+
+}
+p{
+    font-style: italic;
+}
+.ai{
+    background-color: #545252;
+}
+#a{
+    font-style: italic;
+    padding-left: 75px;
+
+}
+#b{
+    font-style: italic;
+    padding-left: 225px;
+}
+#c{
+    font-style: italic;
+    padding-left: 250px;
+}
+#d{
+    font-style: italic;
+    padding-left: 65px;
+}
+#e{
+    font-style: italic;
+    padding-left: 175px;
+}
+#f{
+    font-style: italic;
+    padding-left: 240px;
+}
+#g{
+    font-style: italic;
+    padding-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    padding-top: 120px;
+}
