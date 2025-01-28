@@ -21,8 +21,8 @@ while guesses_left > 0:
     if response == Secret_word: #When won. This tells you you've guessed the word.
         print(f"Congratulations! You guessed the word '{Secret_word}'!")
         break
-        #limits letters allowed to be guessed to one letter at a time
-    elif len(response) == 1:
+        #limits the characters to the length of the word or less
+    elif len(response) <= len(Secret_word):
         if response in guessed_letters:
             print("You already guessed that letter.")
 
